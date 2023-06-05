@@ -1,0 +1,36 @@
+.sponsors {
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.sponsors_slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.sponsors_slide {
+  width: 320px;
+  display: flex;
+}
+
+.sponsors_slide + .sponsors_slide {
+  margin-left: 1rem;
+}
+
+.sponsors_slide img {
+  max-width: 100%;
+}
+.codeEditor {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: fit-content;
+}
+
+@media (max-width: 1030px) {
+  .codeEditor {
+    display: flex;
+    flex-direction: column;
+  }
+}
